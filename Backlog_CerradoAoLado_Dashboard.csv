@@ -1,0 +1,16 @@
+Issue ID;Título;Descrição;Épico;Sprint;Status
+#1;Configurar ambiente GEE/ETL;Criar conta MapBiomas, scripts de download e exportação por município;Infraestrutura e Dados Base;Sprint 1;To Do
+#2;Pipeline Cerrado ao Lado;"Schema pocket_forest, especie, sensor, série_sensor; endpoint REST";Infraestrutura e Dados Base;Sprint 1;To Do
+#3;Baseline Solo e Carbono;Query MapBiomas Solo, calcular média C (t/ha) + incerteza;Infraestrutura e Dados Base;Sprint 2;To Do
+#4;Δ Temperatura;Calcular ΔT antes/depois (30/90/180 dias) e gráficos;Lógica e Indicadores;Sprint 2;To Do
+#5;Δ Infiltração / Umidade;Registrar campanhas e calcular Δ médio/desvio;Lógica e Indicadores;Sprint 2;To Do
+#6;Carbono biomassa;Implementar fator espécie e exibir estimativa;Lógica e Indicadores;Sprint 3;To Do
+#7;Serviços ecossistêmicos;Contagem árvores, espécies, área verde, beneficiários;Lógica e Indicadores;Sprint 3;To Do
+#8;Mapa interativo municipal;Renderizar LULC 1985–2024, legenda e classes;Frontend e UX/UI;Sprint 4;To Do
+#9;Camadas Urbano & Risco;"HAND, declividade, expansão urbana; filtros por bairro";Frontend e UX/UI;Sprint 5;To Do
+#10;Cadastro Pocket Forest;Formulário, upload foto e CSV de sensores;Frontend e UX/UI;Sprint 4;To Do
+#11;Visão impacto;KPIs ΔT, Δ infiltração, C, espécies, gráficos;Frontend e UX/UI;Sprint 5;To Do
+#12;Exportar/Compartilhar;Exportar PNG, CSV, PDF com créditos CC-BY;Frontend e UX/UI;Sprint 5;To Do
+#13;Licenciamento e Créditos;Rodapé CC-BY + citação oficial MapBiomas;Governança e Documentação;Sprint 6;To Do
+#14;Documentação Técnica;README, diagramas, dicionário de dados;Governança e Documentação;Sprint 6;To Do
+#15;Monitoramento;Logs ETL, dashboard de métricas (SLOs);Governança e Documentação;Sprint 6;To Do
