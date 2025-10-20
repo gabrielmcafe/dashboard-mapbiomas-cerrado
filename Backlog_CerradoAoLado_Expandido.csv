@@ -1,0 +1,23 @@
+Issue ID;Título;Descrição;Épico;Sprint;Status
+#1;Configurar ambiente GEE/ETL;Configurar acesso às coleções MapBiomas (LULC, Água, Fogo, Solo, Urbano);Infraestrutura e Dados Base;Sprint 1;To Do
+#2;Pipeline Cerrado ao Lado;"Schema pocket_forest, especie, sensor, série_sensor; endpoint REST";Infraestrutura e Dados Base;Sprint 1;To Do
+#3;Baseline Solo e Carbono;Query MapBiomas Solo, cálculo de estoque de C (t/ha) e textura;Infraestrutura e Dados Base;Sprint 2;To Do
+#3a;Conectividade ecológica;Calcular distâncias entre fragmentos vegetais e pockets (buffers 100–500 m);Infraestrutura e Dados Base;Sprint 2;To Do
+#3b;Clima (temp./chuva);Ingestão de dados diários/mensais via APIs INMET e NASA POWER;Infraestrutura e Dados Base;Sprint 2;To Do
+#3c;Socioeconômico (IBGE);Importar população, renda, densidade, vulnerabilidade social por setor censitário;Infraestrutura e Dados Base;Sprint 2;To Do
+#4;Δ Temperatura;Calcular ΔT antes/depois do plantio (30/90/180 dias);Lógica de Negócio e Indicadores;Sprint 2;To Do
+#5;Δ Infiltração / Umidade;Registrar campanhas de solo e calcular Δ médio e desvio;Lógica de Negócio e Indicadores;Sprint 2;To Do
+#6;Carbono biomassa;Implementar fator por espécie e exibir estimativa;Lógica de Negócio e Indicadores;Sprint 3;To Do
+#7;Serviços ecossistêmicos;Contagem árvores, espécies, área verde, beneficiários;Lógica de Negócio e Indicadores;Sprint 3;To Do
+#7a;NDVI / EVI / NDWI;Gerar índices de vigor vegetativo (pré/pós-plantio);Lógica de Negócio e Indicadores;Sprint 3;To Do
+#7b;Água superficial e alagamento;Frequência de água + HAND (risco pluvial);Lógica de Negócio e Indicadores;Sprint 3;To Do
+#7c;Fogo e regeneração;Histórico de cicatrizes e recuperação da vegetação;Lógica de Negócio e Indicadores;Sprint 3;To Do
+#8;Aba 1 – Visão da Cidade;Mapa LULC 1985–2024, NDVI médio, série histórica;Frontend e UX/UI;Sprint 4;To Do
+#9;Aba 2 – Urbano & Risco;Camadas HAND, declividade, vulnerabilidade social;Frontend e UX/UI;Sprint 5;To Do
+#10;Aba 3 – Pocket Forests;Cards com dados do plantio e KPIs ΔT, Δ infiltração, carbono;Frontend e UX/UI;Sprint 4;To Do
+#11;Aba 4 – Água, Fogo & Conectividade;Mapas de água, fogo e corredores ecológicos;Frontend e UX/UI;Sprint 5;To Do
+#12;Aba Resumo ESG;Indicadores sociais e ambientais agregados (árvores, área verde, beneficiários);Frontend e UX/UI;Sprint 5;To Do
+#13;Exportar / Compartilhar;Relatórios PDF/PNG/CSV com créditos CC-BY;Frontend e UX/UI;Sprint 5;To Do
+#14;Licenciamento e Créditos;Rodapé CC-BY e citações MapBiomas, INMET, IBGE;Governança e Documentação;Sprint 6;To Do
+#15;Documentação técnica;README, diagramas, dicionário de dados, scripts ETL;Governança e Documentação;Sprint 6;To Do
+#16;Monitoramento;Logs ETL, dashboards de jobs e uptime;Governança e Documentação;Sprint 6;To Do
